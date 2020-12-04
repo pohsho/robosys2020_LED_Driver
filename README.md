@@ -1,11 +1,11 @@
-# robosys2020_LED_Driver
+## robosys2020_LED_Driver
 
 # robosys2020 課題
 
-## 動作環境
+### 動作環境
 |||
 |:--:|:--:|
-|Raspberry Pi|Raspberry Pi Model 3B+|
+|Raspberry Pi|Raspberry Pi Model 4|
 |OS| Ubuntu20.04|
 
 ## 今回の課題で使用した回路
@@ -13,10 +13,13 @@
 ## 課題１の内容
 LEDを３つ使用して、LED単体で光らせたり、複数で光らせる。
 
-## デバイスドライバのインストール
+## インストール
+### デバイスドライバのインストール
 ```bash:
-$git clone 
-## デバイスドライバのビルド
+$git clone https://github.com/pohsho/robosys2020_LED_Driver.git
+$cd robosys2020_LED_Driver
+```
+### デバイスドライバのビルド
 コマンドで行う場合
 ```bash:
 $make
@@ -46,6 +49,8 @@ $echo 7 > /dev/myled0　＃すべてのLEDが点灯
 Pin番号によってLEDの数を変えたり、光らせる場所を変えることが出来るため、使用者が目的に合わせて使い分けをすることが出来る点である。
 
 ## デモ動画
-
-# 共同制作者
+https://youte.be/tx2mEkSt5IA
+## 参考資料
+https://github.com/ryuichiueda/robosys_device_drivers.git
+## 共同制作者
 個人情報保護のため、ソースコード内のライセンスを参照
