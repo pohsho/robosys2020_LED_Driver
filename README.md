@@ -55,4 +55,4 @@ https://youtu.be/tx2mEkSt5lA
 ## 参考資料
 https://github.com/ryuichiueda/robosys_device_drivers.git
 ## 共同制作者
-個人情報保護のため、ソースコード内のAUTHを参照
+個人情報保護のため、ソースコード内のAUTHORを参照
