@@ -14,7 +14,7 @@
 ## 課題１の内容
 LEDを３つ使用して、LED単体で光らせたり、複数で光らせる。
 
-## インストール
+## インストール手順
 ### デバイスドライバのインストール
 ```bash:
 $git clone https://github.com/pohsho/robosys2020_LED_Driver.git
