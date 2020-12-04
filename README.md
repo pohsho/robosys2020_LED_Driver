@@ -3,6 +3,7 @@
 # robosys2020 課題
 
 ### 動作環境
+今回の課題で使用した環境は以下の表に示す。
 |||
 |:--:|:--:|
 |Raspberry Pi|Raspberry Pi Model 4|
