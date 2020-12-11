@@ -37,7 +37,7 @@ $sudo rmmod myled
 # 動作方法
 動作＜LED＞
 ```bash:
-$echo 0 > /dev/myled0  ＃すべてのLEDが点灯
+$echo 0 > /dev/myled0  ＃すべてのLEDが消灯
 $echo 1 > /dev/myled0　＃左のLEDが点灯
 $echo 2 > /dev/myled0　＃真ん中のLEDが点灯
 $echo 3 > /dev/myled0　＃右のLEDが点灯
@@ -49,7 +49,8 @@ $echo 7 > /dev/myled0　＃すべてのLEDが点灯
 
 ## アピールポイント
 Pin番号によってLEDの数を変えたり、光らせる場所を変えることが出来るため、使用者が目的に合わせて使い分けをすることが出来る点である。例えば、信号機などとして利用出来たりする。
-
+## コントリビューション
+今回自分がやったこととしては、初期のプログラムでは一つのLEDが点灯したり消灯するだけであったが、LEDを３つそれぞれを光らせたかったので、LEDが３つそれぞれに光らせるようにしたことである。
 ## デモ動画
 https://youtu.be/tx2mEkSt5lA
 ## 参考資料
